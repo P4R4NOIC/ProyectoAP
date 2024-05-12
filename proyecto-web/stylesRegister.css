@@ -1,0 +1,84 @@
+.contenedor {
+  display: flex;
+  height: 100vh;
+}
+
+.seccion {
+  flex: 1;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  margin-left: 50px;
+}
+
+.izquierda {
+  background-color: #FFFFFF;
+  font-family: "Roboto";
+  margin-left: 50px;
+}
+
+.derecha {
+  background-color: #6237DD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.derecha img {
+  max-width: 50%;
+  height: auto;
+}
+
+.contenido {
+  text-align: center;
+  padding: 20px;
+  font-family: "Roboto";
+}
+
+.titulo {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #4A4543;
+  margin-left: 50px;
+}
+
+.subtitulo {
+  margin-left: 50px;
+}
+
+.text-link {
+  color: #808080;
+  font-family: "Roboto";
+  margin-left: 250px;
+}
+
+.text-link a {
+  color: #6237DD;
+  text-decoration: none;
+  font-family: "Roboto";
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Roboto";
+}
+
+.btn-register {
+  background-color: #6237DD;
+  color: #FFFFFF;
+  width: 72.5%;
+  margin-left: 50px;
+  padding: 10px 120px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Roboto";
+}
