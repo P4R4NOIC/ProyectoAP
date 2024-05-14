@@ -1,0 +1,132 @@
+/* Home */
+.icono-home {
+    top: 20px; 
+    left: 20px; 
+    width: 150px; 
+    height: auto; 
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+/* Search bar */
+.search-bar {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: -115px; 
+  }
+  
+.search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #6237DD;
+    opacity: 0.2;
+    outline: none;
+    width: 750px;
+    font-size: 16px;
+}
+
+.search-input::placeholder {
+    opacity: 2; 
+    color: #ffffff;
+    padding: 250px;
+    font-family: "Roboto";
+}
+
+/* Iconos del usuario */
+.icon-container {
+    position: absolute; 
+    top: 70px; 
+    right: 35px; 
+    display: flex; 
+    justify-content: flex-end; 
+    z-index: 1; 
+}
+  
+.icon-container img {
+    width: 55px; 
+    height: 55px; 
+    margin-left: 20px; 
+    transition: transform 0.2s ease-in-out;
+}
+
+.icon-container img:hover {
+    transform: scale(1.1); 
+    cursor: pointer; 
+}
+
+/* formulario */
+.edit-container {
+    border: none;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    font-family: "Roboto";
+}
+
+h1 {
+    font-family: "Roboto";
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 40px; 
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    margin-right: 10px;
+    flex: 1; 
+    text-align: left;
+}
+
+.input-field, .dropdown-field {
+    flex: 2; 
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    color: #333;
+    background-color: #EFEFEF;
+}
+
+.input-field[readonly] {
+    background-color: #c9c9c9;
+}
+
+.dropdown-field {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-size: 12px 12px;
+}
+
+.btn-back {
+    position: absolute;
+    margin-left: 88%;
+    bottom: 2%;
+}
+
+.btn-back, .btn-save {
+    background-color: #6237DD;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Roboto";
+    font-size: 13px;
+    width: 200px;
+    height: 35px;
+}
+
+.btn-save {
+    margin-left: 100px;
+}
