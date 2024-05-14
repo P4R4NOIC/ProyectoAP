@@ -1,0 +1,354 @@
+.contenedor {
+    height: 200vh;
+    background: linear-gradient(to bottom, #EBEAEA 0%, #6237DD 300%);
+  }
+
+/* Home */
+
+.icono-home {
+    top: 20px; 
+    left: 20px; 
+    width: 150px; 
+    height: auto; 
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+h1 {
+    margin: 20px;
+    font-size: 36px;
+    font-family: "Roboto", sans-serif; 
+    color: #000000;
+    padding-top: 55px;
+    padding-left: 55px;
+  }
+
+
+/* Search bar */
+
+.search-bar {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: -115px; 
+  }
+  
+.search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #6237DD;
+    opacity: 0.2;
+    outline: none;
+    width: 750px;
+    font-size: 16px;
+}
+
+.search-input::placeholder {
+    opacity: 2; 
+    color: #ffffff;
+    padding: 250px;
+    font-family: "Roboto";
+}
+
+/* Iconos del usuario */
+
+.icon-container {
+    position: absolute; 
+    top: 70px; 
+    right: 35px; 
+    display: flex; 
+    justify-content: flex-end; 
+    z-index: 1; 
+}
+  
+.icon-container img {
+    width: 55px; 
+    height: 55px; 
+    margin-left: 20px; 
+    transition: transform 0.2s ease-in-out;
+}
+
+.icon-container img:hover {
+    transform: scale(1.1); 
+    cursor: pointer; 
+  }
+
+/* Tags */
+.tags-container {
+    display: flex; 
+    margin-top: 20px;
+    margin-left: 75px;
+    justify-content: flex-start; 
+  }
+
+  .tag {
+    display: inline-block; 
+    padding: 10px 20px; 
+    border: 1px solid #000;
+    border-radius: 20px; 
+    background-color: transparent; 
+    color: #000;
+    margin-right: 10px;
+    font-family: "Roboto", sans-serif; 
+    transition: background-color 0.2s ease-in-out; 
+  }
+  
+  .tag:hover {
+    background-color: #6337dd3d; 
+    cursor: pointer; 
+  }
+  
+/* Sinopsis */ 
+.sinopsis {
+    margin-top: 20px; 
+    font-size: 16px; 
+    padding-left: 75px;
+    line-height: 1.5; 
+    color: #000000; 
+    font-family: "Roboto", sans-serif; 
+    width: 450px; 
+    height: 100px; 
+  }
+  
+/* Rating */
+
+.rating-container {
+    display: flex; 
+    align-items: center; 
+    margin-top: 20px;
+    padding-left: 75px;
+    justify-content: flex-start; 
+  }
+  
+  .rating-text {
+    margin-right: 10px; 
+    font-family: "Roboto", sans-serif; 
+  }
+  
+  .rating-stars {
+    display: flex; 
+  }
+  
+  .star-icon {
+    font-size: 30px; 
+    color: #ccc; 
+    margin-right: 5px; 
+  }
+
+/* View cast */
+.view-cast-button {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: absolute;
+    top: 48%; 
+    left: 59%;
+    transform: translateY(-50%); 
+    background-color: #6237DD; 
+    color: #fff; 
+    font-family: "Roboto"; 
+    font-size: 17px; 
+    border-radius: 20px; 
+    padding: 15px 30px; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out; 
+}
+
+.view-cast-button:hover {
+  background-color: #9e88db;
+  transform: translateY(-50%) scale(1.05);
+}
+
+/*Add to cart button*/
+.addtocart-button{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    position: absolute;
+    top: 55%; 
+    left: 84%;
+    transform: translateY(-50%); 
+    background-color: #6237DD; 
+    color: #fff; 
+    font-family: "Roboto"; 
+    font-size: 17px; 
+    border-radius: 20px; 
+    padding: 15px 30px; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out; 
+}
+
+.addtocart-button:hover {
+  background-color: #9e88db;
+  transform: translateY(-50%) scale(1.05); 
+}
+  
+/* Trailer */
+.youtube-video-container {
+    position: absolute; 
+    top: 36%; 
+    right: 100px; 
+    transform: translateY(-50%); 
+    width: 520px; 
+    height: 290px; 
+    border-radius: 20px; 
+    overflow: hidden; 
+    cursor: pointer; 
+  }
+  
+  .youtube-video-container img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .youtube-video-container:hover img {
+    transform: scale(1.1); 
+  }
+
+/* gaeleria de episodios */
+.episode-gallery {
+    display: flex;
+    flex-direction: row; 
+    margin-top: 130px;
+    margin-left: 50px;
+    padding: 20px;
+    border-radius: 20px; 
+    font-family: "Roboto";
+    justify-content: flex-start;
+    align-items: flex-end; 
+    :hover {
+        opacity: 0.8; 
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+        cursor: pointer; 
+      }
+  }
+  
+  .image-wrapper {
+    width: 250px; 
+    height: 200px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    border-radius: 20px; 
+    margin-right: 15px; 
+
+  }
+  
+  .image-wrapper img {
+    width: 250px; 
+    height: 150px;
+    border-radius: 20px; 
+  }
+  
+  .caption {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+/* Disponibilidad y duracion */
+.availability-container,
+.episode-info-container {
+  display: flex;
+  align-items: center; 
+  padding: 10px; 
+  font-family: "Roboto", sans-serif; 
+}
+
+.availability-container {
+  margin-top: 20px; 
+  margin-left: 55px;
+  justify-content: flex-start; 
+}
+
+.episode-info-container {
+  margin-top: 20px; 
+  margin-right: 55px;
+  justify-content: flex-end; 
+}
+
+.availability-text,
+.episode-info-text {
+  font-size: 14px; 
+}
+
+.availability-text a {
+  color: #6237DD; 
+  font-weight: bold; 
+}
+
+/* Comentarios*/
+.comment-box-container {
+    margin-top: 20px; 
+    margin: 50px;
+    background-color: #ffffff; 
+    border-radius: 20px;
+    padding: 20px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+.comment-box {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+.rating-container-2 {
+    margin-bottom: 10px; 
+    margin-top: 10px;
+    .rating-stars .star-icon:hover {
+        color: #FFE600; 
+        cursor: pointer; 
+      }
+  }
+  
+.comment-input {
+    height: 80px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    resize: none; 
+    font-family: "Roboto", sans-serif;
+  }
+  
+.cover-picture-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; 
+  }
+  
+.cover-picture {
+    width: 35px;
+    height: 52px;
+    border-radius: 5px; 
+    background-color: #F2F2F2;
+  }
+  
+.post-comment-button {
+    margin-top: 10px; 
+    background-color: #6237DD;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+.post-comment-button:hover {
+    background-color: #9e88db;
+  }
+  
+.title-content {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.title-genre {
+    font-family: "Roboto", sans-serif;
+    margin: 5px;
+}
