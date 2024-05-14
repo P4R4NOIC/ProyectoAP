@@ -4,7 +4,6 @@
   }
 
 /* Home */
-
 .icono-home {
     top: 20px; 
     left: 20px; 
@@ -25,7 +24,6 @@ h1 {
 
 
 /* Search bar */
-
 .search-bar {
     display: flex;
     align-items: top;
@@ -52,7 +50,6 @@ h1 {
 }
 
 /* Iconos del usuario */
-
 .icon-container {
     position: absolute; 
     top: 70px; 
@@ -112,7 +109,6 @@ h1 {
   }
   
 /* Rating */
-
 .rating-container {
     display: flex; 
     align-items: center; 
