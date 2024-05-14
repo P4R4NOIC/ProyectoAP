@@ -4,17 +4,16 @@
   }
 
 /* Home */
-
 .icono-home {
     top: 20px; 
     left: 20px; 
     width: 150px; 
     height: auto; 
     padding-bottom: 30px;
+    cursor: pointer;
 }
 
 /* Search bar */
-
 .search-bar {
     display: flex;
     align-items: top;
@@ -41,7 +40,6 @@
 }
 
 /* Iconos del usuario */
-
 .icon-container {
     position: absolute; 
     top: 70px; 
@@ -55,10 +53,15 @@
     width: 55px; 
     height: 55px; 
     margin-left: 20px; 
+    transition: transform 0.2s ease-in-out;
 }
 
-/* Galeria text (Trending general) */
+.icon-container img:hover {
+    transform: scale(1.1); 
+    cursor: pointer; 
+  }
 
+/* Galeria text (Trending general) */
 .trending-gallery-top {
     flex-direction: column; 
     align-items: center; 
@@ -80,7 +83,6 @@
 }
 
 /* Galeria text (bottom) */
-
 .trending-gallery-bottom {
     flex-direction: column; 
     align-items: center; 
@@ -94,7 +96,6 @@
 }
 
 /* Galeria (Trending General images TOP) */
-
 .image-container-general {
     display: flex; 
     flex-direction: row; 
@@ -110,7 +111,6 @@
 }
   
 /* Galeria (Trending TV SHOWS images TOP) */
-
 .image-container-tv {
     display: flex;
     flex-direction: row; 
@@ -127,7 +127,6 @@
 }
 
 /* Galeria (Trending movies images BOTTOM) */
-
 .image-container-movies{
     display: flex; 
     flex-direction: row; 
