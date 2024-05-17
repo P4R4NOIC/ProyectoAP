@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="stylesShoppingCart.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="contenedor">
+    <div class="icon-container">
+      <img src="recursos/info.png" alt="icon 2" width="55px" height="55px">
+      <img src="recursos/user.png" alt="icon 3" width="55px" height="55px">
+    </div>
+
+    <a href="#" class="back-link">&lt; Back</a>
+
+    <div class="divider"></div>
+
+    <h1>Shopping Cart</h1>
+    <h2>You have 3 items in your cart</h2>
+
+    <div class="cart-items">
+      <div class="cart-item">
+        <div class="cart-item-image">
+          <img src="imagenes de prueba/cover.jpg" alt="Product Image">
+        </div>
+        <div class="cart-item-details">
+          <h3>The Grey Man</h3>
+          <h4>Movie</h4>
+          <p class="price">$1.00</p>
+          <div class="quantity-control">
+            <input type="number" min="1" value="1" class="quantity-input">
+            <button class="btn-quantity-minus"><i class="fas fa-caret-down"></i></button>
+            <button class="btn-quantity-plus"><i class="fas fa-caret-up"></i></button>
+          </div>
+          <button class="btn-delete">Delete</button>
+        </div>
+      </div>
+      
+      <div class="cart-items">
+        <div class="cart-item">
+          <div class="cart-item-image">
+            <img src="imagenes de prueba/cover.jpg" alt="Product Image">
+          </div>
+          <div class="cart-item-details">
+            <h3>The Grey Man</h3>
+            <h4>Movie</h4>
+            <p class="price">$1.00</p>
+            <div class="quantity-control">
+              <input type="number" min="1" value="1" class="quantity-input">
+              <button class="btn-quantity-minus"><i class="fas fa-caret-down"></i></button>
+              <button class="btn-quantity-plus"><i class="fas fa-caret-up"></i></button>
+            </div>
+            <button class="btn-delete">Delete</button>
+          </div>
+        </div>
+
+      <div class="checkout-container">
+        <div class="checkout-content">
+          <div class="subtotal">
+            <span>Subtotal</span>
+            <span>$2.00</span>
+          </div>
+          <div class="checkout-button">
+            <span>$2.00</span>
+            <span>Checkout</span>
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</body>
+</html>
+
+
