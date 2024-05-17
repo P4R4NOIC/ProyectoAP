@@ -82,7 +82,7 @@ body {
 h1 {
   font-family: "Roboto"; 
   position: absolute;
-  top: 20%; /* Set top position to 50% */
+  top: 20%; 
   padding-left: 75px;
 }  
 
@@ -91,25 +91,25 @@ a {
   font-size: 17px;
   font-weight: bold;
   position: absolute;
-  top: 45%; /* Set top position to 50% */
+  top: 45%; 
   padding-left: 75px;
 }
   
 /* Photo */
 .bio-img-container {
-  position: absolute; /* Make the element absolutely positioned */
-  top: 45%; /* Set top position to 50% */
-  right: 10%; /* Set right position to 20px from the right edge */
-  transform: translateY(-50%); /* Center vertically using transform */
-  width: 300px; /* Set the width */
-  height: 400px; /* Set the height */
+  position: absolute;
+  top: 45%; 
+  right: 10%; 
+  transform: translateY(-50%); 
+  width: 300px; 
+  height: 400px; /
 }
 
 .bio-img-container img {
-  max-width: 100%; /* Ensure the image doesn't overflow the container */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Make the image a block element */
-  margin: 0 auto; /* Center the image horizontally within the container */
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
   border-radius: 15px;
 }
 
@@ -117,8 +117,8 @@ a {
 .image-container-movies{
   display: flex; 
   flex-direction: row; 
-  position: absolute; /* Make the element absolutely positioned */
-  top: 70%; /* Set top position to 50% */
+  position: absolute; 
+  top: 70%; 
   margin-left: 60px;
 }
 
