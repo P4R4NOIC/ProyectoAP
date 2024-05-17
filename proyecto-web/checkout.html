@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="stylesCheckout.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="contenedor">
+    <div class="icon-container">
+      <img src="recursos/info.png" alt="icon 2" width="55px" height="55px">
+      <img src="recursos/user.png" alt="icon 3" width="55px" height="55px">
+    </div>
+
+    <a href="#" class="back-link">&lt; Back</a>
+
+    <div class="divider"></div>
+
+    <h1>Checkout</h1>
+    <h2>You have 2 items in your cart</h2>
+
+    <div class="payment-form-container">
+      <form class="payment-form">
+        <h3>Payment</h3>
+        <div class="divider2"></div>
+        <hr>
+        <div class="form-group">
+          <label for="card-number">Card Number</label>
+          <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9101 1121">
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="expiration-date">Expiration Date</label>
+            <input type="text" id="expiration-date" name="expiration-date" placeholder="MM/YY">
+          </div>
+          <div class="form-group">
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" name="cvv" placeholder="123">
+          </div>
+        </div>
+        <button type="submit" class="pay-button">Pay USD 2.00</button>
+        <p class="disclaimer">Your personal data will not be used to process your order.</p>
+      </form>
+    </div>
+
+    <div class="summary-container">
+      <form class="summary">
+        <h3>Order Summary</h3>
+        <div class="divider2"></div>
+        <hr>
+
+        <div class="summary-content">
+          <div class="product-info">
+            <img src="imagenes de prueba/cover.jpg" alt="Product Image" width="50px" height="50px">
+            <div class="product-details">
+              <label for="title-content">The Grey Man</label>
+              <label for="content-type">Movie</label>
+              <p class="Qty">Qty x1</p>
+              <p class="price">$1.00</p>
+            </div>
+        </div>
+
+        <div class="summary-content">
+          <div class="product-info">
+            <img src="imagenes de prueba/cover.jpg" alt="Product Image" width="50px" height="50px">
+            <div class="product-details">
+              <label for="title-content">The Grey Man</label>
+              <label for="content-type">Movie</label>
+              <p class="Qty">Qty x1</p>
+              <p class="price">$1.00</p>
+            </div>
+        </div>
+
+        <div class="divider2"></div>
+        <label for="subtotal">Subtotal</label>
+        <p class="Sub-price">$2.00</p>
+        <div class="divider2"></div>
+        <label for="total">Total</label>
+        <p class="total-price">$2.00</p>
+      </form>
+    </div>
+
+  </div>
+</body>
+</html>
+
+
