@@ -67,7 +67,7 @@ h2 {
 /* Iconos del usuario */
 .icon-container {
     position: absolute; 
-    top: 70px; 
+    top: 35px; 
     right: 35px; 
     display: flex; 
     justify-content: flex-end; 
