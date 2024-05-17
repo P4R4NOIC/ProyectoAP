@@ -153,8 +153,8 @@ label[for="Admin-text"] {
     position: fixed;
     top: 70px; 
     left: 240px;
-    font-family: "Roboto"; /* Cambia la fuente según tus preferencias */
-    font-size: 33px; /* Cambia este valor para ajustar el tamaño del texto */
+    font-family: "Roboto"; 
+    font-size: 33px;
 }
 
 .botones-admin {
@@ -190,7 +190,6 @@ label[for="Admin-text"] {
   }
   
 /* Efecto hover del lapiz */
-
 .image-container-general img {
     width: 177px;
     height: 263px;
