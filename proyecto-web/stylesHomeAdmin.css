@@ -1,0 +1,228 @@
+.contenedor {
+    height: 100vh;
+    background: linear-gradient(to bottom, #EBEAEA 0%, #6237DD 300%);
+  }
+
+  body {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}  
+
+/* Home */
+.icono-home {
+    top: 20px; 
+    left: 20px; 
+    width: 150px; 
+    height: auto; 
+    padding-bottom: 30px;
+    cursor: pointer;
+}
+
+/* Search bar */
+.search-bar {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    margin-top: -115px; 
+  }
+  
+.search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #6237DD;
+    opacity: 0.2;
+    outline: none;
+    width: 750px;
+    font-size: 16px;
+}
+
+.search-input::placeholder {
+    opacity: 2; 
+    color: #ffffff;
+    padding: 250px;
+    font-family: "Roboto";
+}
+
+/* Iconos del usuario */
+.icon-container {
+    position: absolute; 
+    top: 35px; 
+    right: 35px; 
+    display: flex; 
+    justify-content: flex-end; 
+    z-index: 1; 
+}
+  
+.icon-container img {
+    width: 55px; 
+    height: 55px; 
+    margin-left: 20px; 
+    transition: transform 0.2s ease-in-out;
+}
+
+.icon-container img:hover {
+    transform: scale(1.1); 
+    cursor: pointer; 
+  }
+
+/* Galeria text (Trending general) */
+.trending-gallery-top {
+    flex-direction: column; 
+    align-items: center; 
+}
+  
+.trending-gallery-top h2 {
+    padding-top: 60px;
+    padding-left: 50px;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+.trending-gallery-top h3 {
+    position: absolute; 
+    top: 175px;
+    right: 1100px; 
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+/* Galeria text (bottom) */
+.trending-gallery-bottom {
+    flex-direction: column; 
+    align-items: center; 
+}
+  
+.trending-gallery-bottom h2 {
+    padding-top: 20px;
+    padding-left: 50px;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+/* Galeria (Trending General images TOP) */
+.image-container-general {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    padding: 50px;
+    padding-top: 1px;
+    width: 10px; 
+}
+  
+.image-container-general img {
+    margin-right: 15px; 
+    border-radius: 20px; 
+}
+  
+/* Galeria (Trending TV SHOWS images TOP) */
+.image-container-tv {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    position: absolute; 
+    top: 250px;
+    right: 1360px; 
+    width: 10px; 
+}
+  
+.image-container-tv img {
+    margin-right: 15px; 
+    border-radius: 20px; 
+}
+
+/* Galeria (Trending movies images BOTTOM) */
+.image-container-movies{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    padding: 50px;
+    padding-top: 1px;
+    width: 10px; 
+}
+  
+.image-container-movies img {
+    margin-right: 15px; 
+    border-radius: 20px; 
+}
+
+/* ADMIN */
+
+label[for="Admin-text"] {
+    position: fixed;
+    top: 70px; 
+    left: 240px;
+    font-family: "Roboto"; /* Cambia la fuente según tus preferencias */
+    font-size: 33px; /* Cambia este valor para ajustar el tamaño del texto */
+}
+
+.botones-admin {
+    position: fixed;
+    bottom: 150px; 
+    right: 350px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-movie,
+.btn-series {
+    border-radius: 15px; 
+    margin-bottom: 10px; 
+    width: 250px;
+    height: 50px;
+    background-color: #6237DD;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
+}
+
+.btn-movie:hover {
+    background-color: #9e88db;
+    cursor: pointer;
+  }
+
+.btn-series:hover {
+    background-color: #9e88db;
+    cursor: pointer;
+  }
+  
+/* Efecto hover del lapiz */
+
+.image-container-general img {
+    width: 177px;
+    height: 263px;
+    transition: transform 0.3s ease;
+  }
+
+.image-container-general img:hover {
+    content: url(recursos/pencil.jpg);
+    transform: scale(1.1); 
+    cursor: pointer;
+  }
+
+.image-container-tv img {
+    width: 177px;
+    height: 263px;
+    transition: transform 0.3s ease;
+  }
+
+.image-container-tv img:hover {
+    content: url(recursos/pencil.jpg);
+    transform: scale(1.1); 
+    cursor: pointer;
+  }
+
+.image-container-movies img {
+    width: 177px;
+    height: 263px;
+    transition: transform 0.3s ease;
+  }
+
+.image-container-movies img:hover {
+    content: url(recursos/pencil.jpg);
+    transform: scale(1.1); 
+    cursor: pointer;
+  }
