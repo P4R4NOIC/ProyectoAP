@@ -3,6 +3,12 @@
     background: linear-gradient(to bottom, #EBEAEA 0%, #6237DD 300%);
   }
 
+body {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}
+
 /* Home */
 .icono-home {
     top: 20px; 
