@@ -3,6 +3,12 @@
   height: 100vh;
 }
 
+body {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}
+
 .seccion {
   flex: 1;
   display: flex; 
