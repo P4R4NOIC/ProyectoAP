@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Edit Menu</title>
+  <link rel="stylesheet" href="stylesUserEdit.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="contenedor">
+    <img src="recursos/logo-negro.png" alt="home icon" class="icono-home">
+
+    <div class="icon-container">
+        <img src="recursos/info.png" alt="icon 2" width="55px" height="55px">
+      </div>
+
+    <div class="search-bar">
+        <input type="text" class="search-input" placeholder="Search movies, documentaries, series...">
+    </div>
+
+    <div class="edit-container">
+      <h1>User Profile</h1>
+    
+      <div class="form-group">
+        <label for="name">Edit Name:</label>
+        <input type="text" id="name" class="input-field">
+      </div>
+    
+      <div class="form-group">
+        <label for="email">Edit Email:</label>
+        <input type="email" id="email" class="input-field">
+      </div>
+    
+      <div class="form-group">
+        <label for="username">Edit Username:</label>
+        <input type="text" id="username" class="input-field">
+      </div>
+    
+      <div class="form-group">
+        <label for="password">Edit Password:</label>
+        <input type="password" id="password" class="input-field">
+      </div>
+    
+      <div class="form-group">
+        <label for="userType">User Type:</label>
+        <input type="text" id="userType" class="input-field" readonly>
+      </div>
+    
+      <div class="form-group">
+        <label for="userAge">User Age:</label>
+        <input type="number" id="userAge" class="input-field">
+      </div>
+    
+      <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select id="gender" class="dropdown-field">
+          <option value="">Select Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+    
+      <div class="form-group">
+        <label for="community">Community:</label>
+        <select id="community" class="dropdown-field">
+          <option value="">Select Community</option>
+        </select>
+      </div>
+    
+      <button class="btn-save">Save</button>
+    </div>
+    
+    <button class="btn-back">Back</button>
+
+  </div>
+</body>
+</html>
