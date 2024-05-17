@@ -3,7 +3,7 @@
     background: linear-gradient(to bottom, #EBEAEA 0%, #6237DD 300%);
   }
 
-body {
+  body {
     font-family: "Roboto";
     margin: 0;
     padding: 0;
@@ -17,6 +17,14 @@ body {
     height: auto; 
     padding-bottom: 30px;
     cursor: pointer;
+}
+
+label[for="Admin-text"] {
+  position: fixed;
+  top: 70px; 
+  left: 240px;
+  font-family: "Roboto"; 
+  font-size: 33px; 
 }
 
 h1 {
